@@ -1,0 +1,111 @@
+/*
+Theme Name: Pixels
+Author: Muhammad Umair
+Description: Our theme for 2022 is designed to take full advantage of the flexibility of the block editor. Organizations and businesses have the ability to create dynamic landing pages with endless layouts using the group and column blocks. The centered content column and fine-tuned typography also makes it perfect for traditional blogs. Complete editor styles give you a good idea of what your content will look like, even before you publish. You can give your site a personal touch by changing the background colors and the accent color in the Customizer. The colors of all elements on your site are automatically calculated based on the colors you pick, ensuring a high, accessible color contrast for your visitors.
+Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, footer-widgets, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, block-styles, wide-blocks, accessibility-ready
+Version: 1.0.0
+Requires at least: 5.0
+Tested up to: 5.4
+Requires PHP: 7.0
+License: GNU General Public License v2 or later
+Text Domain: pixel
+*/
+/*================================================
+[  Table of contents  ]
+================================================
+
+  1. Import Default & Template CSS
+  2. Custom CSS Goes Here
+
+======================================
+[ End table content ]
+======================================*/
+
+/*--
+    1. Import Default & Template CSS
+----------------------------------------*/
+
+/*Default*/
+@import url('assets/css/default.css');
+/*Buttons*/
+@import url('assets/css/shortcode/buttons.css');
+/*Headers*/
+@import url('assets/css/shortcode/header.css');
+/*Templates*/
+@import url('assets/css/template/creative.css');
+@import url('assets/css/template/corporate.css');
+@import url('assets/css/template/restaurant.css');
+@import url('assets/css/template/minimal.css');
+@import url('assets/css/template/photography.css');
+
+
+
+/*--
+    2. Custom CSS Goes Here
+----------------------------------------*/
+.photo{
+  width: 88px;
+  height: 88px;
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.url{
+  pointer-events: none;
+  text-decoration: none;
+  color: #3e3e3e;
+  margin-top: 0px;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 6px;
+  text-transform: capitalize;
+  display: inline-block;
+  
+  float: left;
+}
+.comment-metadata{
+  pointer-events: none;
+  text-decoration: none;
+  color: black;
+}
+.comment-metadata a time{
+  color: #999999;
+}
+.says{
+  visibility:hidden;
+  font-size: 0px;
+}
+.children{
+  margin-left: 90px;
+}
+.comment-body{
+  border-bottom: 1px solid #f1f1f1;
+    margin-bottom: 30px;
+    padding-bottom: 24px;
+}
+.comment-reply-link{
+  float: right;
+  color: #000000;
+}
+.comment-reply-link:hover{
+  float: right;
+  color: #0d6efd;
+}
+.fn{
+  display: block;
+}
+.abcd{
+  display: none;
+}
+.reply{
+  display: inline-block;
+ 
+  float: right;
+}
+
+.title-1 {
+  font-size: 32px;
+  font-weight: bolder;
+  margin-bottom: 15px;
+}
